@@ -1,0 +1,8 @@
+if I told you a word started with 0x70 in hexadecimal, what would it start with in ASCII? 
+
+HEX  = 0x70 
+BINARY = 0b01110000
+DEC = 16*7 + 0*0 = 112
+In ASCII 112 = p lowercase
+
+flag : picoCTF{p}
