@@ -1,0 +1,8 @@
+#! /bin/bash
+unzip Addadshashanammu.zip
+cd Addadshashanammu/Almurbalarammi/Ashalmimilkala/Assurnabitashpi/Maelkashishi/Onnissiralis/Ularradallaku/
+chmod 755 fang-of-haynekhtnamet
+echo "--------------------------"
+echo "The Flag is processing"
+echo "--------------------------"
+./fang-of-haynekhtnamet
