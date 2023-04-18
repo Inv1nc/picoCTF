@@ -1,0 +1,6 @@
+, line 22
+    if flag = "":
+            ^
+SyntaxError: invalid syntax
+
+put two equals ==
