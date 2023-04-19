@@ -1,0 +1,2 @@
+ssh -p 64573 picoplayer@saturn.picoctf.net 
+Password: GhHrPQ2+zL

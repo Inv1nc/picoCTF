@@ -1,0 +1,4 @@
+Hostname: saturn.picoctf.net
+Port:     62700
+Username: picoplayer
+Password: password
