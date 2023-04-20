@@ -1,0 +1,44 @@
+ssh picoplayer@saturn.picoctf.net -p 54473
+The authenticity of host '[saturn.picoctf.net]:54473 ([13.59.203.175]:54473)' can't be established.
+ECDSA key fingerprint is SHA256:rVNn1QlhUdZOnc7nl/aitlyapgsa26C3m3w2ThRL/PY.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '[saturn.picoctf.net]:54473,[13.59.203.175]:54473' (ECDSA) to the list of known hosts.
+picoplayer@saturn.picoctf.net's password: 
+Welcome to Ubuntu 20.04.5 LTS (GNU/Linux 5.15.0-1031-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+picoplayer@challenge:~$ pwd
+/home/picoplayer
+
+picoplayer@challenge:~$ cd ..
+
+picoplayer@challenge:/home$ cd ..
+
+picoplayer@challenge:/$ la
+.dockerenv  challenge  home   lib64   mnt   root  srv  usr
+bin         dev        lib    libx32  opt   run   sys  var
+boot        etc        lib32  media   proc  sbin  tmp
+
+
+picoplayer@challenge:/$ cd challenge/
+
+picoplayer@challenge:/challenge$ la
+metadata.json
+
+picoplayer@challenge:/challenge$ cat metadata.json 
+{"flag": "picoCTF{Sch3DUL7NG_T45K3_L1NUX_1d781160}", "username": "picoplayer", "password": "dd4yT2bR9r"}

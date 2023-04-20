@@ -1,0 +1,4 @@
+Server: saturn.picoctf.net
+Port: 54473
+Username: picoplayer 
+Password: dd4yT2bR9r
