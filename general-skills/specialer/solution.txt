@@ -1,0 +1,9 @@
+Specialer$ pwd
+/home/ctf-player
+Specialer$ echo *
+abra ala sim
+Specialer$ cd ala
+Specialer$ echo *
+kazam.txt mode.txt
+Specialer$ echo "$(<kazam.txt)"
+return 0 picoCTF{y0u_d0n7_4ppr3c1473_wh47_w3r3_d01ng_h3r3_a8567b6f}

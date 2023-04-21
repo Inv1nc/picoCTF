@@ -1,0 +1,3 @@
+ssh -p 64401 ctf-player@saturn.picoctf.net
+The password is d137d16e
+
